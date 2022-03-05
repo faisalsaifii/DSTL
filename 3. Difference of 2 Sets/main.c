@@ -1,6 +1,5 @@
 #include<stdio.h>
-void main()
-{
+void main(){
     int n, m, i=0, j=0, flag=0;
     printf("Enter the total elements in set A : ");
     scanf("%d", &m);
@@ -18,7 +17,7 @@ void main()
     for(i=0; i<m; i++){
         for(j=0; j<n; j++){
             if(a[i] == b[j])
-            flag = 1;
+                flag = 1;
         }
     }
     printf("\n");
