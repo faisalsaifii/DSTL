@@ -22,6 +22,7 @@ void main(){
     printf("Enter no. of elements : ");
     scanf("%d ", &n);
     int set[n];
+    printf("Enter the elements : ");
     for(i=0; i<n; i++)
         scanf("%d", &set[i]);
     powerSet(set, n);
